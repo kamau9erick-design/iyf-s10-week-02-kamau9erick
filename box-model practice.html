@@ -11,11 +11,21 @@
         <div  class="box padding">Padding</div>
         <div  class="box border">Border</div>
         <div  class="box margin">Margin</div>
+        <div  class="box broken-box">Broken Box</div>
 
         <h1>CSS Box Practice</h1>
         <p>The CSS box model is essentially a box that wraps around every HTML element</p>
         <p>It consists of: margins, borders, padding, and the actual content</p>
-           <style>
+         
+        <div class="card">
+            <img src="images/download (1).jfif" alt="MY IMAGE ">
+            <h2> My Card </h2>
+            <p>This is the card content.</p>
+            <button> CARD BUTTON
+            </button>
+            
+         </div> 
+         <style>
             .box {
                 width: 200px;
                 height: 100px;
@@ -35,6 +45,17 @@
             }
             .margin {
                 background-color: lightyellow;
+            }
+            .card {
+                width: 300px;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                text-align: center;
+            }
+            title{
+                margin-bottom: 15px;
             }
         </style>
 
